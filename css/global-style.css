@@ -1,0 +1,241 @@
+@import url("font-awesome.min.css");
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+body {
+	margin: 0 auto;
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 37px;
+	font-weight: 300;
+	background-color: #ffffff;
+}
+a {
+	color: #8e2525;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	transition: all 0.20s linear 0s;
+}
+a:focus {
+	outline: none;
+}
+a img {
+	border: 0;
+}
+h1, h1 a {
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 72px;
+	font-weight: 700;
+	margin: 0;
+}
+h2, h2 a {
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 60px;
+	font-weight: 700;
+	margin: 0;
+}
+h3, h3 a {
+	color: #8e2525;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 52px;
+	font-weight: 700;
+	margin: 0;
+}
+h4, h4 a {
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 42px;
+	font-weight: 700;
+	margin: 0;
+}
+h5, h5 a {
+	color: #8e2525;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 34px;
+	font-weight: 700;
+	margin: 0;
+}
+h6, h6 a {
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	margin: 0;
+}
+p, ul, ol {
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 37px;
+	font-weight: 300;
+	margin: 0;
+	line-height: normal;
+}
+hr {
+	background-color: #8e2525;
+    border: 0 none;
+    height: 1px;
+}
+.button {
+    display: inline-block;
+}
+.button {
+	padding: 33px 43px;
+	background-color: #f2b064;
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 42px;
+	font-weight: 700;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	border-radius: 16px;
+	text-align: center;
+	text-transform: none;
+}
+.button:hover, .button:focus {
+	color: #000000;
+	cursor: pointer;
+	background-color: #f29e3d;
+	text-decoration: none;
+}
+.wrapper {
+	width: 100%;
+}
+/*-------------------------HEADER START----------------------------*/
+.headerwide {
+	background-color: #ffffff;
+	width: 100%;
+}
+.header {
+	padding-top: 37px;
+	padding-bottom: 37px;
+}
+.appStore {
+	float: right;
+	padding-top: 73px;
+}
+/*-------------------------HEADER END------------------------------*/
+/*-------------------------BANNER START---------------------------*/
+.bannerwide {
+	background-color: #8e2525;
+	width: 100%;
+}
+.banner {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.bannerContent {
+	padding-top: 143px;
+}
+.bannerContent h1, .bannerContent h1 small {
+	color: #ffffff;
+}
+.bannerContent .button {
+	margin: 37px 0;
+}
+/*-------------------------BANNER END---------------------------*/
+/*-------------------------CONTENT START---------------------------*/
+.contentwide {
+	width: 100%;
+}
+.content {
+	padding-top: 113px;
+	padding-bottom: 113px;
+}
+.content p {
+	overflow: hidden;
+	margin: 0 0 97px 0;
+}
+.topSpace {
+	line-height: 183px;
+}
+.content p:last-child {
+	margin: 0;
+}
+.ctaImage {
+	float: left;
+	margin: 0 73px 0 0;
+}
+/*-------------------------CONTENT END---------------------------*/
+/*-------------------------TABOO START---------------------------*/
+.taboowide {
+	background-color: #e9e9e9;
+	width: 100%;
+}
+.taboo {
+	padding-top: 33px;
+	padding-bottom: 33px;
+}
+.tabooImg {
+	float: left;
+	margin: 0 33px 0 0;
+}
+.taboo h6 {
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 34px;
+	font-weight: 300;
+	padding-top: 43px;
+	text-align: right;
+}
+.taboo h5 {
+	color: #000000;
+	padding-top: 23px;
+}
+.taboo p {
+	font-size: 34px;;
+}
+.taboo p, .taboo h5 {
+	overflow: hidden;
+}
+/*-------------------------TABOO END---------------------------*/
+/*-------------------------FOOTER START----------------------------*/
+.footerwide {
+	width: 100%;
+}
+.footer {
+	padding-top: 48px;
+	padding-bottom: 48px;	
+}
+.footer p {
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	margin: 0;
+	line-height: 20px;
+	text-align: center;
+}
+/*-------------------------FOOTER END------------------------------*/
+/*-------------------------CLEAR START-----------------------------*/
+/* Clear Floated Elements */
+/* http://sonspring.com/journal/clearing-floats */
+.clear {
+    clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
+.clearfix:after {
+	clear: both;
+	content:' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}

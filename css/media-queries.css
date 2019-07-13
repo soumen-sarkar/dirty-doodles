@@ -1,0 +1,146 @@
+/*Extra large device (Desktops)*/
+@media (min-width: 1200px) and (max-width: 1920px) {
+	.taboo p {
+		font-size: 28px;
+	}	
+}
+/*Medium device (Desktops)*/
+@media (min-width: 990px) and (max-width: 1199px) {
+	.bannerContent {
+		padding-top: 103px;
+	}
+	.bannerContent h1 {
+		font-size: 53px;
+	}
+	.bannerContent .button{
+		padding: 23px 33px;
+	}
+	.content p {
+		font-size: 30px;
+	}
+	.taboo h6 {
+		font-size: 33px;
+	}
+	.taboo h5 {
+		padding-top: 9px;
+	}
+	.taboo p {
+		font-size: 28px;
+	}
+	
+}
+/*Small device (Tablets)*/
+@media (max-width: 989px) {
+	.bannerContent {
+		padding-top: 63px;
+	}
+	.bannerContent h1 {
+		font-size: 43px;
+	}
+	.bannerContent .button{
+		padding: 13px 23px;
+		font-size: 33px;
+	}
+	.bannerContent .button {
+		margin: 37px 0;
+	}
+	.content p {
+		font-size: 26px;
+	}
+	.taboo h6 {
+		font-size: 24px;
+	}
+	.taboo h5 {
+		padding-top: 23px;
+		font-size: 26px;
+	}
+	.taboo p {
+		font-size: 18px;
+	}
+	
+}
+/*Extra small device (Phones)*/
+@media (max-width: 767px) {
+	.header {
+		padding-top: 17px;
+		padding-bottom: 7px;
+	}
+	.logo, .appStore {
+		display: block;
+		margin: 0 auto;
+	}
+	.appStore {
+		float: none;
+		padding-top: 23px;
+	}
+	.banner {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.carousel .item img {
+		display: block;
+		margin: 0 auto;
+	}
+	.bannerContent {
+		padding-top: 33px;
+	}
+	.bannerContent h1 {
+		font-size: 29px;
+		text-align: center;
+	}
+	.bannerContent .button{
+		padding: 13px 23px;
+		font-size: 23px;
+		display:block;
+		margin: 0 auto;
+	}
+	.bannerContent .button {
+		margin: 17px 0;
+	}
+	.content {
+		padding-top: 23px;
+		padding-bottom: 23px;
+	}
+	.ctaImage {
+		clear: both;
+		display: block;
+		float: none;
+		margin: 0 auto 23px;
+	}
+	.content p {
+		text-align: center;
+		font-size: 23px;
+		margin-bottom: 33px;
+	}
+	.topSpace {
+		line-height: normal;
+	}
+	.taboo {
+		padding-top: 13px;
+		padding-bottom: 13px;
+	}
+	.taboo h6 {
+		font-size: 26px;
+		padding: 0 0 13px 0;
+		text-align: center
+	}
+	.tabooImg {
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+	.taboo h5 {
+		padding: 9px 0;
+		font-size: 23px;
+		text-align: center
+	}
+	.taboo p {
+		font-size: 19px;
+		text-align: center
+	}
+	.footer {
+		padding-top: 18px;
+		padding-bottom: 18px;	
+	}
+		
+}
