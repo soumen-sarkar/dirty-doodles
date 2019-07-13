@@ -1,3 +1,3 @@
-# dirty-doodles
+# Dirty doodles
 
-Landing page HTML template
+Landing page HTML template using Bootstrap
